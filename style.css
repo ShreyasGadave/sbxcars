@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+.navbar {
+}
+.contact {
+  height: 25px;
+  width: 100vw;
+  background-color: #ededed;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.contact a {
+  color: #656565;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.sep {
+  font-weight: 100;
+  margin: 0 12px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  width: 100vw;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+ 
+}
+.logo img {
+    width: 200px;
+    height:46px;
+    cursor: pointer;
+}
+
+.logo i{
+    font-size: 27px;
+    height: 32px;
+    width: 31px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-list a{
+    text-decoration: none;
+text-align: center;
+margin: 0px 24px 0px 16px;
+color: #656565;
+}
+.nav-list{
+    text-align: center;
+   font-weight: 300;
+   padding: 12px 0px;
+}
